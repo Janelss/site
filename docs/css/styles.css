@@ -1,0 +1,345 @@
+body {
+	color: #000;
+	font: 20px Tahoma, sans-serif;
+	margin: 0;
+}
+
+.container {
+	max-width: 1600px;
+	margin: auto;
+}
+
+.BGIT {
+	background-color: #47160e;
+	height: 50px;
+}
+.BGIT h3 {
+	line-height: 28px;
+	font-size: 28px;
+	text-align: center;
+	color: white;
+	margin: 0;
+	padding-top: 11px;
+}
+
+/*=======================================
+                  Меню
+=======================================*/
+
+.logo img {
+	width: 200px;
+}
+
+h1 {
+	display: inline-block;
+	font: 60px/60px "Oswald", sans-serif;
+	margin: 0;
+}
+
+.header {
+	background-image: url(../images/header.jpg);
+	padding: 20px;
+	color: #fff;
+}
+
+.header__inner {
+	display: flex;
+	justify-content: space-around;
+}
+
+.header__menu {
+	text-align: center;
+	margin: auto 0;
+}
+
+.header__top {
+	display: flex;
+	justify-content: center;
+}
+.copyright {
+	margin-top: 30px;
+	margin-left: 10px;
+}
+
+.icon img {
+	width: 100px;
+	border-radius: 40px;
+}
+.header__top li {
+	font-size: 36px;
+}
+
+nav a {
+	text-decoration: none;
+	color: #fff;
+}
+
+nav a.active {
+	color: red;
+}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+}
+
+nav li {
+	display: inline-block;
+	font: 14px "Oswald", sans-serif;
+	padding: 10px 30px;
+	margin: 0;
+}
+a:hover {
+	opacity: 0.7;
+	transition: opacity 0.2s;
+}
+
+/*=======================================
+                  Основное
+=======================================*/
+.heading {
+	padding: 20px 20px 50px;
+}
+.heading__info {
+	margin: 30px 0;
+	font-size: 30px;
+	text-align: center;
+}
+.ded-inside {
+	justify-content: center;
+	font-size: 24px;
+	margin: 0 auto;
+}
+.heading__img img {
+	max-width: 80%;
+}
+.heading__img {
+	text-align: center;
+
+}
+/*=======================================
+                  Подвал
+=======================================*/
+
+footer {
+	background-image: url(../Images/header.jpg);
+	font-size: 12px;
+	color: #fff;
+}
+
+.footer {
+	display: flex;
+	justify-content: center;
+	max-width: 1600px;
+	margin: 0 auto;
+	padding: 20px;
+	height: 200px;
+}
+
+footer h3 {
+	font: 24px "Oswald", sans-serif;
+	border-bottom: 1px solid #919191;
+	margin: 0 0 10px 0;
+	text-align: center;
+	padding-bottom: 3px;
+}
+
+footer a {
+	color: #dbdbdb;
+}
+
+footer p {
+	margin: 5px 0;
+}
+
+.footer__logo img {
+	width: 200px;
+	float: left;
+}
+
+.sitemap {
+	max-width: 300px;
+	float: left;
+	margin-left: 40px;
+	padding-right: 15px;
+	position: relative;
+}
+
+.sitemap div {
+	display: inline-block;
+}
+
+.sitemap div + div {
+	margin-left: 40px;
+}
+
+.sitemap a {
+	display: block;
+	text-decoration: none;
+	font-size: 20px;
+	margin-bottom: 5px;
+}
+
+.sitemap p {
+	font-size: 20px;
+	margin: 0 0;
+}
+.social {
+	float: left;
+	text-align: center;
+}
+
+.social-icon {
+	width: 50px;
+	height: 50px;
+	border-radius: 20px;
+}
+
+.social-icon:first-child {
+	margin: 0 5px;
+}
+
+/*=======================================
+                  Адаптация
+=======================================*/
+@media (max-width: 1280px) {
+	.BGIT {
+		height: 50px;
+	}
+	.BGIT h3 {
+		line-height: 24px;
+		font-size: 24px;
+		padding-top: 13px;
+	}
+	.logo img {
+		width: 170px;
+	}
+	h1 {
+		font-size: 50px;
+		line-height: 50px;
+	}
+
+	.icon img {
+		width: 80px;
+		border-radius: 32px;
+	}
+
+	.header__top li {
+		padding: 10px 20px;
+	}
+
+	.heading__info {
+		font-size: 26px;
+	}
+	.heading__content {
+		font-size: 24px;
+	}
+	.footer {
+		height: 170px;
+	}
+}
+@media (max-width: 991px) {
+	.BGIT h3 {
+		line-height: 22px;
+		font-size: 22px;
+		padding-top: 14px;
+	}
+	h1 {
+		font-size: 40px;
+		line-height: 40px;
+	}
+	.logo img {
+		width: 130px;
+	}
+
+	.icon img {
+		width: 70px;
+		border-radius: 28px;
+	}
+
+	.header__menu {
+		flex-wrap: wrap;
+	}
+	.header__top li {
+		font-size: 28px;
+	}
+
+	.heading__info {
+		font-size: 24px;
+	}
+	.heading__content {
+		font-size: 22px;
+	}
+	.heading__img img {
+		max-width: 100%;
+	}
+
+	.footer {
+		height: 130px;
+	}
+	.footer h3 {
+		font-size: 20px;
+	}
+	.sitemap a,
+	.sitemap p {
+		font-size: 16px;
+	}
+	.social-icon {
+		width: 40px;
+		height: 40px;
+		border-radius: 16px;
+	}
+	.footer-info {
+		font-size: 22px;
+		margin-left: 40px;
+	}
+}
+
+@media (max-width: 841px) {
+	.logo img {
+		display: none;
+	}
+	.header__top li {
+		font-size: 22px;
+		padding: 10px 15px;
+	}
+	.footer {
+		height: 120px;
+	}
+}
+
+@media (max-width: 671px) {
+	.BGIT h3 {
+		line-height: 20px;
+		font-size: 20px;
+		padding-top: 15px;
+	}
+	.header__inner {
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+	h1 {
+		font-size: 35px;
+		line-height: 35px;
+	}
+
+	.icon img {
+		width: 60px;
+		border-radius: 24px;
+	}
+
+	.header__top li {
+		font-size: 20px;
+		padding: 10px 10px;
+	}
+
+	.heading__content {
+		margin-left: 10px;
+	}
+	.sitemap div + div {
+		margin-left: 20px;
+	}
+}
+/*=======================================
+                  О нас
+=======================================*/
